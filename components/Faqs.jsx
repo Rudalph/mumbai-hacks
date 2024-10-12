@@ -18,7 +18,7 @@ export default function Faqs() {
                   How do I use the report simplifier?
                 </dt>
                 <dd className="mt-2 text-sm text-gray-500">
-                  Upload your medical report and click on the "Summarize" button. You will receive a summary of your report. Additionally, you can ask any questions related to the report in the "Ask Your Medical Doubts" section.
+                  Upload your medical report and click on the Summarize button. You will receive a summary of your report. Additionally, you can ask any questions related to the report in the Ask Your Medical Doubts section.
                 </dd>
               </div>
               <div className="rounded-md border border-black/30 p-6">
@@ -42,7 +42,7 @@ export default function Faqs() {
                   How do I use the health advice system?
                 </dt>
                 <dd className="mt-2 text-sm text-gray-500">
-                  Add the details and set your goals, then click on the "Emotion" button and click "Submit." Next, click "Score" to check your score and "Advice" for personalized advice. Based on your emotions, you can also calculate your stress level.
+                  Add the details and set your goals, then click on the Emotion button and click Submit. Next, click Score to check your score and Advice for personalized advice. Based on your emotions, you can also calculate your stress level.
                 </dd>
               </div>
               <div className="rounded-md border border-black/30 p-6">
