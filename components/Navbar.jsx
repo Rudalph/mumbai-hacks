@@ -45,7 +45,7 @@ export default function Navbar() {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-base font-semibold text-white hover:text-[#FF7777]"
+                  className="text-base font-semibold text-black hover:text-[#FF7777]"
                 >
                   {item.name}
                 </a>

@@ -47,7 +47,7 @@ const Page = () => {
     try {
       // https://medisense-backend.onrender.com
       // http://localhost:5000/upload
-      const response = await fetch('https://medisense-backend.onrender.com/upload', {
+      const response = await fetch('http://localhost:5000/upload', {
         method: 'POST',
         body: formData,
       });
@@ -88,6 +88,23 @@ const Page = () => {
         });
       console.error('Error:', error.message);
     }
+
+
+    try {
+      const response = await fetch("http://localhost:5003/savefolder", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (response.ok) {
+        alert("File uploaded successfully!");
+      } else {
+        alert("File upload failed.");
+      }
+    } catch (error) {
+      console.error("Error uploading file:", error);
+      alert("Error uploading file.");
+    }
   };
 
   const handleQuestionChange = (e) => {
@@ -109,7 +126,7 @@ const Page = () => {
         });
     } else {
       try {
-        const response = await fetch('http://127.0.0.1:5003/', {
+        const response = await fetch('http://127.0.0.1:5003/ask', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -133,7 +150,7 @@ const Page = () => {
         }
 
         const data = await response.json();
-        const answer = data.recommendations.replace(/[\*>#]/g, '')
+        const answer = data.answer.replace(/[\*>#]/g, '')
         setChatHistory([...chatHistory, { question, answer }]);
         console.log(answer);
         setQuestion("");

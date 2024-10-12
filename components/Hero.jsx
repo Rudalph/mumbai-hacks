@@ -33,7 +33,7 @@ const Hero = () => {
                 style={{
                     backgroundImage: "url(https://www.kaleyra.com/wp-content/uploads/Conversation-banking-with-ai.jpg)",
                 }}>
-                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-overlay bg-opacity-75"></div>
                 <div className="hero-content text-neutral-content text-center lg:mt-20">
                     <div className="max-w-md lg:mr-16">
                         <h1 className="mb-5 lg:text-5xl text-2xl font-bold text-[#FFD066]"><span ref={typingRef} /></h1>
