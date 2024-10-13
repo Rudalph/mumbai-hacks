@@ -1,19 +1,19 @@
 import React from 'react'
-import { Pill, FileText, Activity, Goal, BotMessageSquare } from 'lucide-react'
+import { Pill, FileText, Activity, Goal, BotMessageSquare, Box } from 'lucide-react'
 
 export default function Features() {
   return (
-    <div className="mx-auto px-4 sm:px-6 lg:px-8 mt-20">
+    <div className="mx-auto px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-xl text-center">
         <div className="mx-auto inline-flex rounded-full bg-gray-100 px-4 py-1.5">
           <p className="text-sm font-bold uppercase tracking-widest text-[#1A2238]">
-            Features of MediSense
+            Features of BankFusion
           </p>
         </div>
-        <h2 className="mt-6 text-3xl font-bold leading-tight text-[#1A2238] sm:text-4xl lg:text-5xl">
+        <h2 className="mt-6 text-3xl font-bold leading-tight text-[#009AE3] sm:text-4xl lg:text-5xl">
           What Features Do We Provide?
         </h2>
-        <p className="mt-4 text-base leading-relaxed text-[#D45028]">
+        <p className="mt-4 text-base leading-relaxed text-[#4B5563]">
            Below mentioned are the features of Medisense. Through our features we aim to educate indivisual and develop 
            better understanding of medical terminologies.
         </p>
@@ -21,9 +21,9 @@ export default function Features() {
       <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
         <div>
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#D1E9F6]">
-            <Pill className="h-9 w-9 text-[#1A2238]" />
+            <Box className="h-9 w-9 text-[#1A2238]" />
           </div>
-          <h3 className="mt-8 text-lg font-semibold text-[#D45028]">Prescription Analyzer</h3>
+          <h3 className="mt-8 text-lg font-semibold text-[black]">Form Generator</h3>
           <p className="mt-4 text-sm text-gray-600">
             Upload your prescription or search name of any medicine and get alternate medicines along with 
             names of pharmacies nearby you having those medicines in stock.
@@ -33,7 +33,7 @@ export default function Features() {
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#D1E9F6]">
             <FileText className="h-9 w-9 text-[#1A2238]" />
           </div>
-          <h3 className="mt-8 text-lg font-semibold text-[#D45028]">Report Simplifier</h3>
+          <h3 className="mt-8 text-lg font-semibold text-[black]">Document Simplifier</h3>
           <p className="mt-4 text-sm text-gray-600">
             Upload your complex medical report and get summary of your report in seconds in easy to understand 
             language further your can talk to your report for better understanding.
@@ -53,7 +53,7 @@ export default function Features() {
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#D1E9F6]">
             <Activity className="h-9 w-9 text-[#1A2238]" />
           </div>
-          <h3 className="mt-8 text-lg font-semibold text-[#D45028]">Live Monitoring</h3>
+          <h3 className="mt-8 text-lg font-semibold text-[black]">Personalized Recommendor</h3>
           <p className="mt-4 text-sm text-gray-600">
           Visualize live health metrics such as SPO2, body temperature, and pulse rate, along with historical trends. Receive personalized doctor consultation suggestions and AI-driven health recommendations.
           </p>
@@ -62,7 +62,7 @@ export default function Features() {
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#D1E9F6]">
             <BotMessageSquare className="h-9 w-9 text-[#1A2238]" />
           </div>
-          <h3 className="mt-8 text-lg font-semibold text-[#D45028]">Virtual Assistance</h3>
+          <h3 className="mt-8 text-lg font-semibold text-[black]">Virtual Assistance</h3>
           <p className="mt-4 text-sm text-gray-600">
             A humanized virtual assistance that is capable of answering almost all of your medical queries. We assure 
             that this bot is trained on authentic medical resoures making it safe to use and reliable.

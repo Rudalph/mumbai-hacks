@@ -27,20 +27,24 @@ const Hero = () => {
     }, []);
 
     return (
-        <div>
-            <div
-                className="hero min-h-screen"
-                style={{
-                    backgroundImage: "url(https://www.kaleyra.com/wp-content/uploads/Conversation-banking-with-ai.jpg)",
-                }}>
-                <div className="hero-overlay bg-opacity-75"></div>
-                <div className="hero-content text-neutral-content text-center lg:mt-20">
-                    <div className="max-w-md lg:mr-16">
-                        <h1 className="mb-5 lg:text-5xl text-2xl font-bold text-[#FFD066]"><span ref={typingRef} /></h1>
-                        <p className="mb-5 font-semibold">
-                        Elevating banking excellence with peak performance and passionate service.
+        <div className='bg-white'>
+            <div className="hero min-h-screen bg-[#FFFFFF]">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <img
+                        src="https://miro.medium.com/v2/resize:fit:1200/1*9I6EIL5NG20A8se5afVmOg.gif"
+                        className="max-w-sm rounded-lg  bg-transparent" />
+                    <div>
+                        <h1 className="text-5xl font-bold text-[#009AE3]"><span ref={typingRef} /></h1>
+                        <br />
+                        <p className="py-6">
+                            We elevate banking excellence by delivering peak performance and passionate service.
+                            Our focus is on providing personalized, seamless experiences that meet each customer’s unique needs.
                         </p>
-                        
+                        <br />
+                        <div className='flex justify-start gap-10'>
+                            <input type="text" placeholder="Subscribe" className="input input-bordered w-full max-w-xs" />
+                            <button className="btn bg-[#008AF7] hover:bg-[#008AF7] text-white">Get Started</button>
+                        </div>
                     </div>
                 </div>
             </div>

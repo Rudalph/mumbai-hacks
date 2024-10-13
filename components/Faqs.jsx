@@ -4,11 +4,11 @@ import React from 'react'
 export default function Faqs() {
   return (
     <section className="px-2 mt-24">
-      <div className="mx-auto max-w-7xl py-10">
+      <div className="mx-auto max-w-7xl lg:max-w-full lg:px-10 py-10">
         <div>
           <div className="max-w-2xl">
-            <h1 className="text-2xl font-bold text-[#182C4E] lg:text-4xl">Frequently Asked Questions</h1>
-            <p className="mt-4 text-base leading-6 tracking-wide text-[#D45028]">
+            <h1 className="text-2xl font-bold text-[#009AE3] lg:text-4xl">Frequently Asked Questions</h1>
+            <p className="mt-4 text-base leading-6 tracking-wide text-[black]">
               Below are some general questions that will help you navigate and make the most of our Swasthya Connect system.
             </p>
           </div>

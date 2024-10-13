@@ -34,10 +34,10 @@ export default function Navbar() {
   }
 
   return (
-    <div className="w-full bg-transparent fixed top-0 z-50 pt-3 pb-3 lg:pt-5 lg:pb-5">  
+    <div className="w-full bg-[#0094FD] bg-opacity-5 fixed top-0 z-50 pt-3 pb-3 lg:pt-5 lg:pb-5">  
       <div className="mx-auto flex items-center justify-between px-4 py-2 sm:px-6 lg:px-8 relative z-10">
         <div className="inline-flex items-center space-x-2">
-          <span className="font-bold flex text-2xl lg:text-4xl"><p className='text-[#FFFFFF]'>Bank</p><p className='text-[#FFD066]'>Fusion</p></span>
+          <span className="font-bold flex text-2xl lg:text-4xl"><p className='text-[#008DFA]'>Bank</p><p className='text-[#008DFA]'>Fusion</p></span>
         </div>
         <div className="hidden lg:block">
           <ul className="inline-flex space-x-8">
@@ -45,7 +45,7 @@ export default function Navbar() {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-base font-semibold text-black hover:text-[#FF7777]"
+                  className="text-base font-semibold text-[black] hover:text-[#008DFA]"
                 >
                   {item.name}
                 </a>
